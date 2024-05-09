@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cleomar Souza - Desenvolvedor Frontend</title>
+
+  <link rel="stylesheet" href="src/css/font-awesome.css" />
+  <link rel="stylesheet" href="src/css/reset.css" />
+
+  <!-- Global -->
+  <link rel="stylesheet" href="src/css/globais.css" />
+  <link rel="stylesheet" href="src/css/variaveis.css" />
+  <link rel="stylesheet" href="src/css/secoes/header.css" />
+  <link rel="stylesheet" href="src/css/secoes/home.css" />
+  <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+  <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+  <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+  <link rel="stylesheet" href="src/css/secoes/footer.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between alinhar-itens-no-centro">
+        <a href="#">
+          <h1 class="logo">CS</h1>
+        </a>
+        <nav>
+          <input id="menu-hamburguer" type="checkbox" />
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+          <ul>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Meus projetos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="home">
+    <div class="container">
+      <div class="row full-screen alinhar-itens-no-centro">
+        <div class="texto-home">
+          <h1>Olá! Sou Cleo souza</h1>
+          <p>
+            Sou uma desenvolvedora frontend em formação. Gosto MUITO da área de tecnologia, e tenho certeza que posso
+            contribuir em qualquer time com as minhas habilidades.
+            Estou sempre me desafiando com novos projetos e participando de comunidades de programação para buscar
+            feedback de outros desenvolvedores e desenvolvedoras. Além de tentar ajudar essas pessoas com o que eu já
+            aprendi.
+            Gosto espostes, filmes, séries e animes.
+          </p>
+
+          <ul class="redes-sociais">
+            <li><a href="https://github.com/77971904" title="ir para o gitHub" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+            <li><a href="https://www.linkedin.com/in/cleomar-souza-36bbb7237/" title="ir para o linkedin-in"
+                target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li><a href="https://wa.me/000000000" title="ir para o whatsapp" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </li>
+          </ul>
+
+          <button> <a href="#" target="_blank" rel="noopener noreferrer">Veja meu CV</a></button>
+        </div>
+
+        <div class="img-home">
+          <div class="img-box inner-shadow">
+            <img class="outer-shadow" src="./src/imagens/image.png" alt="foto do perfil da cleomar" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="habilidades section" id="habilidades">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Habilidades</h2>
+        </div>
+      </div>
+
+      <div class="container-habilidades">
+        <div class="informacoes html">
+          <div class="logo">
+            <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+          </div>
+          <h3>HTML5</h3>
+          <p>Desenvolvimento de estrutura semântica para páginas web.
+            Utilização de tags e elementos HTML para criar conteúdo e definir a estrutura de uma página.
+            Incorporação de mídia (imagens, vídeos, áudio) em uma página web.
+            Uso de formulários HTML para coletar informações do usuário.
+            Implementação de links e âncoras para navegação entre páginas.
+          </p>
+        </div>
+
+        <div class="informacoes css">
+          <div class="logo">
+            <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+          </div>
+          <h3>CSS3</h3>
+          <p>Estilização de elementos HTML para modificar aparência, cor, tamanho, espaçamento, entre outros.
+            Desenvolvimento de layouts responsivos utilizando técnicas como flexbox e grid layout.
+            Aplicação de animações e transições para adicionar interatividade e dinamismo.
+            Criação de efeitos visuais avançados, como sombras, gradientes, e bordas arredondadas.
+            Utilização de media queries para adaptar estilos conforme o tamanho da tela do dispositivo.</p>
+        </div>
+
+        <div class="informacoes javascript">
+          <div class="logo">
+            <i class="devicon devicon-javascript-plain" id="javascript"></i>
+          </div>
+          <h3>JavaScript</h3>
+          <p>Sintaxe básica: Entender como declarar variáveis, usar operadores e criar estruturas condicionais (if/else)
+            e loops (for, while).
+            Manipulação do DOM: Saber como selecionar elementos HTML e modificar seu conteúdo, estilos e atributos
+            usando JavaScript.
+            Funções: Capacidade de criar e chamar funções, compreender parâmetros e retorno de valores.
+            Eventos: Conhecimento básico sobre como lidar com eventos como cliques de mouse, pressionamentos de tecla e
+            envios de formulário.
+            Arrays e Objetos: Familiaridade com arrays (listas de valores) e objetos (coleções de pares chave-valor) e a
+            capacidade de acessar seus elementos.</p>
+        </div>
+
+        <div class="informacoes github">
+          <div class="logo">
+            <i class="devicon devicon-github-original" id="github"></i>
+          </div>
+          <h3>GitHub</h3>
+          <p>Criação de Repositório: Criar um novo repositório no GitHub.
+            Clonagem de Repositório: Clonar um repositório remoto para o ambiente local.
+            Envio de Commits: Enviar commits locais para o repositório remoto.
+            Colaboração: Participar de projetos, enviar pull requests e revisar código.
+            Gerenciamento de Issues: Criar, comentar e fechar issues para acompanhar o progresso do projeto.
+          </p>
+        </div>
+
+        <div class="informacoes git">
+          <div class="logo">
+            <i class="devicon devicon-git-plain" id="git"></i>
+          </div>
+          <h3>Git</h3>
+          <p>Inicialização de Repositório: git init para começar um novo repositório.
+            Commits: git add para adicionar arquivos ao stage e git commit para salvar alterações.
+            Branches: git branch, git checkout e git merge para gerenciar branches.
+            Repositório Remoto: git remote, git push e git pull para trabalhar com repositórios remotos.
+            Resolução de Conflitos: Habilidade de resolver conflitos de merge.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projetos section" id="projetos">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Meus projetos</h2>
+        </div>
+      </div>
+
+      <div class="container-projetos">
+        <div class="projeto">
+          <a href="https://77971904.github.io/Projeto-Landing-Page-com-Grid-e-Flex/" target="_blank">
+            <img src="/src/imagens/agencia.png" alt="Landing-Page" />
+            <h3>Landing-Page</h3>
+            <div class="informacoes-projeto">
+              <p>Projeto feito usando HTML e CSS</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projeto">
+          <a href="https://77971904.github.io/QUEST-HTML-E-CSS-AVAN-ADO-/" target="_blank">
+            <img src="./src/imagens/huddle.png" alt="Nome do projeto" />
+            <h3>Desafio do frontend mentor</h3>
+            <div class="informacoes-projeto">
+              <p>Projeto feito usando HTML e CSS</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="projeto">
+          <a href="https://77971904.github.io/Desafio-decodarem-javascript07/" target="_blank">
+            <img src="./src/imagens/formulario.png" alt="Clima" />
+            <h3>Fomulário</h3>
+            <div class="informacoes-projeto">
+              <p>Projeto feito usando HTML, CSS e JavaScripS</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+
+
+        <div class="projeto">
+          <a href=" https://77971904.github.io/projetoOnePiece-DevEmDobro/" target="_blank">
+            <img src="./src/imagens/projeto-one-piece.png" />
+            <h3>One Piece</h3>
+            <div class="informacoes-projeto">
+              <p>Projeto feito usando HTML, CSS e JavaScript</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <h2>Me envie uma mensagem!</h2>
+
+      <ul class="redes-sociais">
+        <li><a href="https://github.com/77971904" title="ir para o gitHub" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li><a href="#" title="ir para o linkedin-in" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </li>
+        <li><a href="https://wa.me/000000000" title="ir para o whatsapp" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+  </footer>
+</body>
+
+</html>
